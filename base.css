@@ -85,3 +85,52 @@ body {
     min-height: 300px;
     padding: 0px;
 }
+/*------------------------------------------------------TABELA-------------------------------------------*/
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  table th {
+    background-color: #053C96;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Estilo para as células da tabela */
+  table td {
+    background-color: white;
+    color: #053C96;
+    padding: 10px;
+    border-bottom: 1px solid #053C96;
+  }
+  
+  /* Estilo para as células da primeira coluna */
+  table td:first-child {
+    border-left: 1px solid #053C96;
+  }
+  
+  /* Estilo para as células da última coluna */
+  table td:last-child {
+    border-right: 1px solid #053C96;
+  }
+  
+  /* Estilo para as linhas alternadas */
+  table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para o texto do cabeçalho */
+  table th span {
+    font-weight: bold;
+  }
+  
+  /* Estilo para o texto das células */
+  table td span {
+    font-weight: normal;
+  }
+
+  
