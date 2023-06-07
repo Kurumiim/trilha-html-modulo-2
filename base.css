@@ -187,6 +187,20 @@ form input[type="submit"]:hover {
     background-color: #033570;
 }
 
+form input[type="reset"] {
+    background-color: #053C96;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para o texto do botão de envio */
+form input[type="reset"]:hover {
+    background-color: #033570;
+}
+
 /* Estilo para as informações adicionais */
 form div {
     display: flex;
@@ -197,6 +211,7 @@ form div {
 form div label {
     margin-bottom: 10px;
     text-align: left;
+    
 }
 
 /* Estilo para o iframe do mapa */
@@ -206,3 +221,4 @@ form iframe {
     border: none;
     margin-left: auto;
 }
+
